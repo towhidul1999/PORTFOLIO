@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='bg-custom-black h-20 relative flex'>
+        <div className='bg-custom-black h-20 relative flex shadow-xl'>
             <div>
                 <h1 className='text-white ml-80 mt-6 text-3xl font-extrabold'>Md. Towhidul Islam</h1>
             </div>
