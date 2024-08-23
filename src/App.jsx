@@ -1,16 +1,32 @@
-import './App.css'
-import About from './components/About'
-import Navbar from './components/Navbar'
+import './App.css';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <>
-      {/* <Home></Home> */}
       <Navbar></Navbar>
-      <About></About>
+      <Home></Home>
+      {/* <About></About> */}
+      <Footer></Footer>
     </>
   )
 }
 
-export default App
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

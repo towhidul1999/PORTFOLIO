@@ -49,7 +49,7 @@ const About = () => {
                                 <input type="text" id="phone" className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#243c5a] shadow-md" />
                             </div>
 
-                            <button type="submit" className="w-full bg-[#243c5a] text-white py-3 rounded-md font-semibold hover:bg-[#1b2f4a] transition-colors shadow-lg transform hover:scale-105">
+                            <button type="submit" className="w-full bg-[#243c5a] text-white py-3 rounded-md font-semibold hover:bg-gray-600 transition-colors shadow-lg transform hover:scale-105">
                                 Submit
                             </button>
                         </form>
@@ -59,19 +59,23 @@ const About = () => {
 
             </div>
 
-            <div className='bg-custom-black text-white'>
-                <h1>Professional Skill</h1>
-                <div className='flex space-x-6 content-center w-40 h-40'>
-                    <div className='border-slate-500'>
-                        <img src="../../video/react.png" alt="" />
-                    </div>
-                    <img src="../../video/node.png" alt="" />
-                    <img src="../../video/express.png" alt="" />
-                    <img src="../../video/mongodb.png" alt="" />
+            <div className='bg-custom-black text-white p-8'>
+                <h1 className='text-center text-2xl font-bold mb-6'>Professional Skill's</h1>
+                <div className='flex justify-center items-center space-x-6'>
+                    <img src="../../video/react.png" alt="React Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                    <img src="../../video/node.png" alt="Node.js Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                    <img src="../../video/express.png" alt="Express Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                    <img src="../../video/mongodb.png" alt="MongoDB Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                </div>
+            </div>
 
-
-
-
+            <div className='bg-custom-black text-white p-8'>
+                <h1 className='text-center text-2xl font-bold mb-6'>Tools I Use</h1>
+                <div className='flex justify-center items-center space-x-6'>
+                    <img src="../../video/react.png" alt="React Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                    <img src="../../video/node.png" alt="Node.js Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                    <img src="../../video/express.png" alt="Express Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
+                    <img src="../../video/mongodb.png" alt="MongoDB Logo" className="w-48 h-48 border-4 border-white rounded-lg p-2" />
                 </div>
             </div>
         </>

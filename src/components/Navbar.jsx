@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -18,6 +19,7 @@ const Navbar = () => {
                     Git
                 </button>
             </div>
+            <Outlet></Outlet>
         </div>
     );
 };
