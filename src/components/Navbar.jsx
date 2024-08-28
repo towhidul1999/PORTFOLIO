@@ -16,7 +16,7 @@ const Navbar = () => {
             </div>
             <div className='ml-40 mt-6 bg-custom-blue h-8 w-40 rounded-md hover:bg-gray-600 transition ease-in-out delay-150 flex items-center justify-center'>
                 <button className='text-white'>
-                    Git
+                    git
                 </button>
             </div>
             <Outlet></Outlet>
