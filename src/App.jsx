@@ -31,7 +31,10 @@ import {
 import './App.css';
 import Main from "./Layout/Main";
 import About from "./components/About";
+import Article from "./components/Article";
 import Home from "./components/Home";
+import Project from "./components/Project";
+import Resume from "./components/Resume";
 
 
 const router = createBrowserRouter([
@@ -46,13 +49,21 @@ const router = createBrowserRouter([
             {
                 path: "/home",
                 element: <Home></Home>
+            },
+            {
+                path: "/project",
+                element: <Project></Project>
+            },
+            {
+                path: "/article",
+                element: <Article></Article>
+            },
+            {
+                path: "/resume",
+                element: <Resume></Resume>
             }
         ]
     },
-    // {
-    //     path: "/about",
-    //     element: < About ></ About >
-    // }
 ]);
 
 
