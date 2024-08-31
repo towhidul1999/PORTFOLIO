@@ -7,7 +7,7 @@ const Article = () => {
 
                 <div className="mt-20 justify-center items-center p-10 bg-custom-blue mx-80 text-white">
 
-                    <div className="mb-4 flex ml-24">
+                    <div className="mb-4 flex ml-24 justify-between">
                         <div>
                             <h2 className="text-xl font-bold">MD. TOWHIDUL ISLAM</h2>
                             <p>Dhaka, Bangladesh</p>
@@ -15,11 +15,17 @@ const Article = () => {
                             <p>Phone: +8801749525227</p>
                             <p>Email: towhidulsislam@gmail.com</p>
                             <a href="#" className="text-blue-500">GitHub</a>
-                            <a href="#" className="text-blue-500 space-x-5">LinkedIn</a>
+                            <a href="#" className="text-blue-500 ml-5">LinkedIn</a>
                         </div>
-                        <div className="space-x-2">
-                            <h1>Mewo</h1>
+                        <div className="-rotate-6">
+                            <img
+                                src="../../video/towhidul.png"
+                                alt="Profile"
+                                className="w-36 h-36 border-4 border-custom-black rounded-full mr-24"
+                            />
                         </div>
+
+
                     </div>
 
                     <hr className="border-t-2 border-custom-black my-4 mx-24" />
@@ -40,9 +46,9 @@ const Article = () => {
 
                     <hr className="border-t-2 border-custom-black my-4 mx-24" />
 
-                    <div>
-                        <h3 className="font-semibold">Skills</h3>
-                        <ul className="list-disc pl-5">
+                    <div className='justify-center items-center'>
+                        <h3 className="font-semibold text-center justify-center items-center">Skills</h3>
+                        <ul className="list-disc list-inside ml-4 space-y-2 text-justify">
                             <li>Programming Languages: PHP, JavaScript, C, C++</li>
                             <li>Frameworks: Laravel, Node.js, Express.js, Socket.io</li>
                             <li>Database Management: SQL, PostgreSQL, MongoDB</li>
@@ -53,6 +59,7 @@ const Article = () => {
                             <li>Strong Communication and Collaboration</li>
                         </ul>
                     </div>
+
 
                     <hr className="border-t-2 border-custom-black my-4 mx-24" />
 
@@ -140,9 +147,8 @@ const Article = () => {
                     </div>
                 </div>
 
+                <button className='bg-custom-blue h-8 w-40 rounded-md hover:bg-gray-600 transition ease-in-out delay-150 mt-10 text-white'>Downlaod Resume</button>
             </div>
-
-
         </>
     );
 };
