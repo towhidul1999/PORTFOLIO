@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Article = () => {
+const Resume = () => {
     return (
         <div className='bg-custom-black mt-0'>
             <div className="mt-20 p-10 bg-custom-blue mx-auto text-white max-w-4xl shadow-lg rounded-lg">
@@ -145,4 +145,4 @@ const Article = () => {
     );
 };
 
-export default Article;
+export default Resume;
