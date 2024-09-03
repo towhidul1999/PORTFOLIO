@@ -105,7 +105,7 @@ const Resume = () => {
                 <div className="mb-8">
                     <h3 className="text-xl font-semibold">Project</h3>
                     <div className="mt-4">
-                        <h4 className="text-lg font-semibold">RunWey</h4>
+                        <h4 className="text-lg font-semibold underline">RunWey</h4>
                         <p className="italic text-gray-300">Short-form Video Content and Innovative Features</p>
                         <ul className="list-disc list-inside mt-2 pl-8">
                             <li><span className='font-bold'>Short-form Video Creation: </span>Create videos from 15 to 60 seconds, encouraging creativity and showcasing talents.</li>
