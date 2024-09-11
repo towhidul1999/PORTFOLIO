@@ -20,7 +20,7 @@ const Navbar = () => {
             <div
                 id='menu'
                 className={`${isMenuOpen ? 'block' : 'hidden'
-                    } absolute top-20 left-0 w-full bg-custom-black md:static md:flex md:space-x-10 text-white font-extrabold`}
+                    } absolute top-20 left-0 w-full bg-custom-black md:static md:flex md:space-x-10 text-white font-extrabold ml-52`}
             >
                 <div className='flex flex-col md:flex-row items-center md:space-x-10 space-y-4 md:space-y-0'>
                     <Link to="/">
